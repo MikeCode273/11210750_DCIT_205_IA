@@ -176,7 +176,7 @@ p {
 }
 
 .program-item a:hover {
-    color: #ff6600;
+    color: #141844;
 }
 
 
@@ -208,7 +208,7 @@ p {
 }
 
 /* Video styles */
-.division#division3 video {
+.division#division1 video {
     width: 100%; /* Adjust video width */
     height: auto; /* Maintain aspect ratio */
     display: block; /* Remove default space around video */
@@ -240,7 +240,7 @@ p {
     padding-top: 20px;
 }
 
-.video-container {
+.video {
     flex: 1;
 }
 
@@ -250,13 +250,12 @@ p {
     /* Add any other desired styles */
 }
 
-.video-container {
-    margin-bottom: 20px; /* Provide spacing between video and upcoming/past events */
-}
 
-.video-container video {
-    width: auto; /* Make the video responsive */
-    height: auto;
+
+.video {
+    width: 100%; /* Make the video responsive */
+    height: 67%;
+    object-fit: cover;
 }
 
 /* Upcoming and Past events container */

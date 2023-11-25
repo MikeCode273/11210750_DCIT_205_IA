@@ -50,32 +50,37 @@ p {
 }
 
 /* Styling the divisions */
-.division {
-    background-color: #fff; /* Change division background color */
-    padding: 20px;
-    margin: 20px 0;
-    border-radius: 5px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a shadow effect */
+
+.hero {
+    background-color: rgb(18, 18, 32); /* Background color for hero section */
+    color: #fff; /* Text color */
+    text-align: center;
+    padding: 100px 0;
 }
 
-.division h2 {
-    margin-bottom: 10px;
-    font-size: 24px;
+.hero h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-weight: 200;
 }
 
-.division p {
-    line-height: 1.6;
-}
-.hero-content p {
+.hero p {
     font-size: 1.2em;
     margin-bottom: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
 }
 
 .cta-button {
     display: inline-block;
     padding: 10px 20px;
-    background-color: #ff6600;
+    background-color: #725e5e;
     color: #fff;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
     text-decoration: none;
     border-radius: 5px;
     font-size: 1.1em;
@@ -88,15 +93,22 @@ p {
 
 /* Enroll section styles */
 .enroll-section {
-    background-color: #f9f9f9;
+    background-color: #f9f9f9; /* Background color for enroll section */
     padding: 50px 0;
     text-align: center;
 }
 
 .enroll-section h2 {
     margin-bottom: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .enroll-section p {
     font-size: 1.1em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
 }
