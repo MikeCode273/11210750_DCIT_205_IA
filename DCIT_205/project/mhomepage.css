@@ -8,13 +8,13 @@ p {
 
 /* Background color for the body */
 .background {
-    background-color: #725e5e; /* Change as needed */
+    background-color: white; /* Change as needed */
 }
 
 /* Styling the header */
 .header {
-    background-color: rgb(49, 49, 107); /* Change header background color */
-    color: #fff; /* Change header text color */
+    background-color: white; /* Change header background color */
+    color: black;
     padding: 20px;
 }
 
@@ -41,7 +41,7 @@ p {
 }
 
 .main-menu li a {
-    color: #fff; /* Change menu link color */
+    color:black; /* Change menu link color */
     text-decoration: rgb(255, 136, 0);
     font-weight: bold;
 }
@@ -77,7 +77,7 @@ p {
 }
 
 #division2 {
-   background-color: #725e5e; /* Set background color */
+   background-color: white; /* Set background color */
     padding: 20px; /* Add padding */
     border-radius: 5px; /* Rounded corners */
     text-align: center;
@@ -125,43 +125,23 @@ p {
 /* CSS Styles */
 /* CSS Styles */
 .division {
-    text-align: center;
-    padding: 40px 20px;
-}
-
-.division h2 {
-    font-size: 28px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-    font-weight: 200;
-    color: #f9f9f9;
-    font-family: poppins,sans-serif;
+    padding: 20px;
 }
 
 .program-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns */
+    gap: 20px;
 }
 
 .program-list {
-    width: 45%;
-    margin-bottom: 20px;
     background-color: #f9f9f9;
     padding: 20px;
     border-radius: 8px;
 }
 
-.program {
-    display: flex;
-    flex-direction: column;
-}
-
 .program h3 {
-    font-size: 18px;
     margin-bottom: 10px;
-    color: #f9f9f9;
-    background-color: #c06b32;
 }
 
 .program-item {
@@ -172,13 +152,11 @@ p {
     text-decoration: none;
     color: #333;
     font-weight: bold;
-    transition: color 0.3s ease;
 }
 
-.program-item a:hover {
-    color: #141844;
+.program-item a:hover {or: #ff6600;
 }
-
+    
 
 /* Hero text */
 .hero-text {
@@ -220,7 +198,7 @@ p {
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: #725e5e;
+    background-color: white;
 }
 
 .division#division3 h2 {

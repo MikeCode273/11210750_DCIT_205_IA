@@ -13,8 +13,8 @@ p {
 
 /* Styling the header */
 .header {
-    background-color: rgb(49, 49, 107); /* Change header background color */
-    color: #fff; /* Change header text color */
+    background-color: white; /* Change header background color */
+    color: black; /* Change header text color */
     padding: 20px;
 }
 
