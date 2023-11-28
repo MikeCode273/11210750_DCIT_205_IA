@@ -7,10 +7,10 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;300;400&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
     <title>Computer Science Department</title>
-    <style>
-        /* Your additional CSS styles can go here if needed */
-    </style>
+   
 </head>
 <body class="background">
     <div class="header">
@@ -21,8 +21,8 @@
             <ul class="main-menu">
                 <li><a href="mhomepage.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
-                <li><a href="catalog.html">Catalog</a></li>
-                <li><a href="resources.html">Resources</a></li>
+                <li><a href="#Courses1">Programmes</a></li>
+                <li><a href="#Events2">Events</a></li>
                 <li><a href="gallery.html">Gallery</a></li>
             </ul>
         </div>
@@ -41,95 +41,133 @@
         </div>
     </div>
 
-    <div class="division" id="division2">
-        <h2>Programs Offered</h2>
-        <div class="program-container">
-            <div class="program-list main-programs">
-                <h3>MAIN PROGRAM</h3>
-                <div class="program">
-                    <div class="program-item">
-                        <a href="csprogrampage.html">Computer Science</a>
-                    </div>
-                    <div class="program-item">
-                        <a href="ITprogrampage.html">Information Technology</a>
-                    </div>
-                    <div class="program-item">
-                        <a href="softwareengpage.html">Software Engineering</a>
-                    </div>
-                </div>
+    <section class="Courses" id="Courses1">
+        <div class="container card-container">
+            <div class="single-card grid-form">
+                <!-- Content for the single card goes here -->
+                <h3>FIND YOUR COURSE</h3>
+                <p>Fill in the for bellow to find your course.</p>
+                <form>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Find">
+                    <label for="vehicle1">by ID</label><br>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Course">
+                    <label for="vehicle1">by Name</label><br>
+                    <input type="text" id="fname" name="fname" placeholder="Course title"><br>
+                    <input type="text" id="lname" name="lname" placeholder="Student ID">
+                </form>
+
+                <button class="shake-glow" type="button" onclick="alert('Form is being Processed. Please Wait.')">Submit</button>
             </div>
-            <div class="program-list secondary-programs">
-                <h3>SECONDARY PROGRAM</h3>
-                <div class="program">
-                    <div class="program-item">
-                        <a href="datasciencepage.html">Data Science</a>
+            
+            <div class="grid-container">
+                <div class="grid-item grids">
+                    <!-- Content for the first grid item goes here -->
+                    <i class="fa-solid fa-shield fa-shake fa-2xl"></i>
+                    <h1>CYBER SECURITY</h1>
+                </div>
+
+                <div class="grid-item grids">
+                    <!-- Content for the second grid item goes here -->
+                    <i class="fa-solid fa-database fa-flip fa-2xl"></i>
+                    <h1><a href="datasciencepage.html">DATABASE ANALYSIS</a></h1>
+                </div>
+
+                <div class="grid-item grids">
+                    <!-- Content for the third grid item goes here -->
+                    <i class="fa-solid fa-file-code fa-bounce fa-2xl"></i>
+                    <h1><a href="csprogrampage.html">COMPUTER PROGRAMMING</a></h1>
+                </div>
+
+                <div class="grid-item grids">
+                    <!-- Content for the fourth grid item goes here -->
+                    <i class="fa-solid fa-computer fa-beat fa-2xl"></i>
+                    <h1><a href="networkpage.html">COMPUTER NETWORKING</a></h1>
+                </div>
+
+                <div class="grid-item grids">
+                    <!-- Content for the fourth grid item goes here -->
+                    <i class="fa-solid fa-gears fa-flip fa-2xl"></i>
+                    <h1><a href="softwareengpage.html">SOFTWARE ENGINEERING</a></h1>
+                </div>
+
+                <div class="grid-item grids">
+                    <!-- Content for the fourth grid item goes here -->
+                    <i class="fa-solid fa-robot fa-bounce fa-2xl"></i>
+                    <h1>ROBOTICS</h1>
+                </div>
+
+                <div class="grid-item grids">
+                    <!-- Content for the fourth grid item goes here -->
+                    <i class="fa-solid fa-microchip fa-shake fa-2xl"></i>
+                    <h1>ARTIFICIAL INTELIGENCE</h1>
+                </div>
+                
+                <div class="grid-item grids">
+                    <!-- Content for the fourth grid item goes here -->
+                    <i class="fa-solid fa-sitemap fa-beat fa-2xl"></i>
+                    <h1>COMPUTER ARCHITECTURE</h1>
+                </div>
+</section>  
+    
+    
+                <section class="Events" id="Events2">
+                    <div class="division" id="division3">
+                        <h2>Events and News</h2>
+                        <div class="upcoming-past-events">
+                            <!-- Upcoming and Past Events -->
+                            <div class="events-container">
+                                <!-- Event 1 -->
+                                <div class="event event1">
+                                    <div class="event-content">
+                                        <div class="event-image">
+                                            <img src="Cyber Security.jpg" alt="Past Event">
+                                        </div>
+                                        <div class="event-text">
+                                            <p>
+                                                <strong>Global CyberTech Workshop</strong><br>
+                                                2nd & 3rd December, 2021<br>
+                                                Time: 8:30 am - 3:30 pm<br>
+                                                Venue: Computer Science Department - University of Ghana
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                    <div class="event event2">
+                        <div class="event-content">
+                            <div class="event-image">
+                                <img src="event3.jpeg" alt="Another Past Event">
+                            </div>
+                            <div class="event-text">
+                                <p>
+                                    <strong>BECOMING A WORLD CLASS SOFTWARE ENGINEER</strong><br>
+                                    20th August, 2020<br>
+                                    Venue - Software Lab.
+                                </p>
+                            </div>
+                        </div>
                     </div>
-                    <div class="program-item">
-                        <a href="networkpage.html">Network Engineering</a>
+        
+                    <!-- Event 3 -->
+                    <div class="event event3">
+                        <div class="event-content">
+                            <div class="event-image">
+                                <img src="shortcourse17.08.2021.jpeg" alt="Another Past Event">
+                            </div>
+                            <div class="event-text">
+                                <p>
+                                    <strong>Online Short Courses</strong><br>
+                                    20th August, 2020<br>
+                                    Registration Deadline: 17th September, 2021
+                                </p>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    
-  
-  <div class="division" id="division3">
-    <h2>Events and News</h2>
-      <div class="upcoming-past-events">
-          <!-- Upcoming and Past Events -->
-          <div class="events-container">
-              <!-- Event 1 -->
-              <div class="event event1">
-                  <div class="event-content">
-                      <div class="event-image">
-                          <img src="Cyber Security.jpg" alt="Past Event">
-                      </div>
-                      <div class="event-text">
-                          <p>
-                              <strong>Global CyberTech Workshop</strong><br>
-                              2nd & 3rd December, 2021<br>
-                              Time: 8:30 am - 3:30 pm<br>
-                              Venue: Computer Science Department - University of Ghana
-                          </p>
-                      </div>
-                  </div>
-              </div>
-  
-              <!-- Event 2 -->
-              <div class="event event2">
-                  <div class="event-content">
-                      <div class="event-image">
-                          <img src="event3.jpeg" alt="Another Past Event">
-                      </div>
-                      <div class="event-text">
-                          <p>
-                              <strong>BECOMING A WORLD CLASS SOFTWARE ENGINEER</strong><br>
-                              20th August, 2020<br>
-                              Venue - Software Lab.
-                          </p>
-                      </div>
-                  </div>
-              </div>
-  
-              <!-- Event 3 -->
-              <div class="event event3">
-                  <div class="event-content">
-                      <div class="event-image">
-                          <img src="shortcourse17.08.2021.jpeg" alt="Another Past Event">
-                      </div>
-                      <div class="event-text">
-                          <p>
-                              <strong>Online Short Courses</strong><br>
-                              20th August, 2020<br>
-                              Registration Deadline: 17th September, 2021
-                          </p>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </div>
-  </div>
-  
+        
+    </section>
+              
 
 
   
