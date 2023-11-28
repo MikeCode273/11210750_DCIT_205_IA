@@ -112,13 +112,15 @@ p {
 /* CSS Styles */
 /* CSS Styles */
 .division {
-    padding: 20px;
+    padding: 15px;
+    width: auto;
 }
 
 
 /* Hero text */
 .hero-text {
     position: relative;
+    width: auto;
 }
 
 .hero-text .hero-content {
@@ -201,6 +203,10 @@ p {
     background: #222845;
     color: white;
     align-content: center;
+}
+.grids h1 a{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 

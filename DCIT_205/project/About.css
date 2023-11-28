@@ -21,6 +21,30 @@ p {
     justify-content: space-between;
     align-items: center;
 }
+footer {
+    background-color: #0f033d;
+    color: rgb(143, 219, 244);
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: Poppins, sans-serif;
+ 
+}
+
+
+ .footer-div {
+     display: flex;
+     flex-direction: row;
+
+
+ }
+
+ .subfooter-div {
+
+     width: 33.333333%;
+ }
 
 .logo img {
     width: 150px; /* Adjust logo width */
