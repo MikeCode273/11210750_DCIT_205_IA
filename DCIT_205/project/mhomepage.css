@@ -382,12 +382,30 @@ p {
 }
 
 /* Footer */
-.footer {
-    background-color: #333; /* Footer background color */
-    color: #fff; /* Footer text color */
-    padding: 20px 0; /* Adjust padding as needed */
-    text-align: center; /* Center-align the text */
+footer {
+    background-color: #0f033d;
+    color: rgb(143, 219, 244);
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: Poppins, sans-serif;
+ 
 }
+
+
+ .footer-div {
+     display: flex;
+     flex-direction: row;
+
+
+ }
+
+ .subfooter-div {
+
+     width: 33.333333%;
+ }
 
 /* Center the container horizontally */
 .container {

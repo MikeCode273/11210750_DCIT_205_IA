@@ -66,5 +66,29 @@ p {
  .image:hover img {
     transform: scale(1.1); /* Adjust scale on hover as desired */
  }
+ footer {
+    background-color: #0f033d;
+    color: rgb(143, 219, 244);
+    text-align: center;
+    padding: 1em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    font-family: Poppins, sans-serif;
+ 
+}
+
+
+ .footer-div {
+     display: flex;
+     flex-direction: row;
+
+
+ }
+
+ .subfooter-div {
+
+     width: 33.333333%;
+ }
  
  
