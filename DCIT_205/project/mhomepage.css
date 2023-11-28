@@ -192,6 +192,7 @@ p {
     box-sizing: border-box;
     padding: 20px;
     border: 1px solid #ccc;
+    
 }
 
 .card-container{
@@ -390,7 +391,7 @@ p {
 /* Footer */
 footer {
     background-color: #0f033d;
-    color: rgb(143, 219, 244);
+    color: white;
     text-align: center;
     padding: 1em;
     position: relative;
