@@ -1,7 +1,7 @@
 # DCIT_205_IA   
 
 
-# Introduction
+# INTRODUCTION
 
 Welcome to the Department of Computer Science at the University of Ghana (College Of Basic and Applied Sciences)! Our department is committed to fostering a dynamic learning environment where students explore the exciting realms of computer science and technology. We aim to provide a comprehensive education that equips students with the knowledge, skills, and creativity needed to thrive in the ever-evolving field of computing.
 
@@ -74,4 +74,22 @@ Our website serves as a central hub for students, faculty, alumni, and anyone pa
     **INDEX NUMBER: 11210750**
 
 4 **SCREENSHOT OF MY WEBSITEPAES!**
-    ![Homepage](<>)
+    ![Homepage](Homepage.PNG)
+    ![Programmes](Programpage.PNG)
+    ![Event page](Eventpage.PNG)
+    ![Gallery](Gallerypage.PNG)
+    ![Information Technology](ITpage.PNG)
+    ![Data Science](Datasc.PNG)
+    ![Aboutpage](aboutpage.PNG)
+    ![Networkpage](Networkpage.PNG)
+    ![Computer Programming](Computer%20Programming%20page.PNG)
+    ![Software Engineering](Softwareenpage.PNG)
+
+
+# lessons Learnt so far
+    1. Improvement of skills in web development
+    2. Helped me explored more features on web development
+    3. Encourage to learn more in web development
+
+
+**Thank you**
